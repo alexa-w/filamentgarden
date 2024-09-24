@@ -1,0 +1,37 @@
+:root {
+    --main-bg-color: #1c1519;
+    --section-bg-color: #59444d;
+    --accent-color: #ad6c89;
+    --text-color: #efe1e7;
+    --link-color: #e8e0f5;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a :hover {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+.main {
+    margin: 1rem auto;
+    max-width: 80%;
+}
+
+.section {
+    background-color: var(--section-bg-color);
+    border-color: var(--accent-color);
+    border-width: 0.125rem;
+    border-radius: 2px;
+    border-style: solid;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
