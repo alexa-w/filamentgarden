@@ -1,5 +1,6 @@
 :root {
     --main-bg-color: #1c1519;
+    --secondary-bg-color: #522c3d;
     --section-bg-color: #59444d;
     --accent-color: #ad6c89;
     --text-color: #efe1e7;
@@ -18,6 +19,7 @@
 
 body {
     background-color: var(--main-bg-color);
+    background-image: repeating-linear-gradient(34deg, transparent, transparent 0.125rem, var(--secondary-bg-color) 0.125rem, var(--secondary-bg-color) 0.25rem);
     color: var(--text-color);
     font-family: 'Ubuntu', sans-serif;
 }
@@ -34,6 +36,11 @@ a {
 .main {
     margin: 1rem auto;
     max-width: 80%;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
 }
 
 .section {
