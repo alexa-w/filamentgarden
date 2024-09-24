@@ -6,19 +6,23 @@
     --link-color: #c3b5db;
 }
 
+@font-face {
+    font-family: 'Ubuntu';
+    src: local("Ubuntu"), url("./fonts/Ubuntu-Regular.ttf");
+}
+
 body {
     background-color: var(--main-bg-color);
     color: var(--text-color);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 a {
     color: var(--link-color);
     text-decoration: none;
-}
-
-a :hover {
-    color: var(--link-color);
-    text-decoration: underline;
+    :hover {
+        text-decoration: underline;
+    }
 }
 
 .main {
