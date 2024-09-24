@@ -11,18 +11,24 @@
     src: local("Ubuntu"), url("./fonts/Ubuntu-Regular.ttf");
 }
 
+@font-face {
+    font-family: 'Laila';
+    src: local('Laila'), url('./fonts/Laila-Regular.ttf');
+}
+
 body {
     background-color: var(--main-bg-color);
     color: var(--text-color);
     font-family: 'Ubuntu', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Laila', sans-serif;
+}
+
 a {
     color: var(--link-color);
-    text-decoration: none;
-    :hover {
-        text-decoration: underline;
-    }
+    text-decoration: underline dotted;
 }
 
 .main {
